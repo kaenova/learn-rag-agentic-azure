@@ -7,7 +7,7 @@ def main():
     project_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Launch Jupyter Notebook in that directory
-    subprocess.run(["jupyter", "lab"], cwd=project_dir)
+    subprocess.run([".venv/bin/python3", "-m", "jupyter", "lab"], cwd=project_dir)
 
 if __name__ == "__main__":
     main()

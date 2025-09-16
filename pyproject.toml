@@ -9,6 +9,7 @@ dependencies = [
     "azure-keyvault-secrets>=4.10.0",
     "azure-search>=1.0.0b2",
     "azure-search-documents>=11.5.3",
+    "jupyterlab>=4.4.7",
     "langchain-community>=0.3.29",
     "langchain-openai>=0.3.33",
     "langchain-text-splitters>=0.3.11",
